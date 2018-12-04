@@ -11,7 +11,7 @@ int main (int argc, char **argv)
     int sommeTotale = atoi(argv[1]), nbreBillet50 = 0, nbreBillet20 = 0, nbreBillet10 = 0, k = 0;
     int val [4] = {50, 20, 12, 1};
     int *tab = NULL;
-   tab = (int*)calloc(4, sizeof(int));
+    tab = (int*)calloc(4, sizeof(int));
 
     Afficher (sommeTotale, (char*) "euros");
     printf ("\n");
